@@ -1,6 +1,9 @@
 function takeANumber(line, name) {
+  var ticketnumber []
+    for (var i = 1; i<ticketnumber.length; i++)
+  }
   line.push(name);
-  return `Welcome, ${name}. You are number ${line.length} in line.`
+  return `Welcome, ${name}. You are number ${ticketnumber} in line.`
 }
 
 function nowServing(line) {
